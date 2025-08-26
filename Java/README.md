@@ -1,9 +1,35 @@
+# Java Leetcode Cheatsheet
+This document provides a quick reference for common data structures, including their declaration, common operations, sorting considerations, and general time complexities.
+
+# Basic Arithmetic & Math Functions:
+* **Max:**
+    ```
+    Math.max(x, y)
+    ```
+* **Min:**
+    ```
+    Math.min(x, y)
+    ```
+* **Square root:**
+    ```
+    Math.sqrt(x)
+    ```
+* **Absolute:**
+    ```
+    Math.abs(x)
+    ```
+* **Power of n:**
+    ```
+    Math.power(x, n)
+    ```
+* **Smallest int >= x:**
+    ```
+    Math.ceil(x)
+    ```
 
 # Common Data Structures and Their Operations
 
-This document provides a quick reference for common data structures, including their declaration, common operations, sorting considerations, and general time complexities.
 
----
 
 ## 1. Arrays
 
@@ -28,6 +54,15 @@ import java.util.Comparator; // For custom comparators
 * **Length:**
     ```
     arr.length
+    ```
+* **Fill array:**
+    ```
+    Arrays.fill(arr, value)
+    ```
+* **Print:**
+    ```
+    Arrays.toString(numbers) // 1D array
+    Arrays.deepToString(numbers) //2D array
     ```
 * **Sorting:**
     * **Ascending (primitive or Comparable objects):**
